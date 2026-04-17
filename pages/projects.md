@@ -177,7 +177,7 @@ permalink: /projects/
         <li>Scoped MVP at ~$1,400–$1,500 with no new tooling required</li>
       </ul>
     </div>
-    <div class="proj-tile-foot">
+    <div class="proj-tile-foot proj-tile-foot-end">
       <i class="fa fa-github"></i>
       <a href="https://github.com/antranakhasi/ReEngageBot" target="_blank" rel="noopener" class="proj-tile-cta">check out ReEngageBot &rarr;</a>
     </div>

@@ -47,6 +47,28 @@
 }
 .menu-link {
   padding: 5px 10px;
+  position: relative;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+.menu-link:hover {
+  transform: translateY(-2px);
+}
+.menu-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 10px;
+  right: 10px;
+  height: 2px;
+  background: linear-gradient(90deg, #7c6ff7, #5bc8af);
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.menu-link:hover::after,
+.menu-link-active::after {
+  opacity: 1;
 }
 
 /*

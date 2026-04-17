@@ -10,7 +10,7 @@ title: Home
         <div id="lottie-avatar"></div>
         <div class="tile-intro-text">
           <h1>Hi, I'm <span class="name-accent">Antra</span></h1>
-          <p>MS MS&amp;E at Stanford by day, debugger of life choices by night.</p>
+          <p>MS&amp;E at Stanford by day, debugger of life choices by night.</p>
           <p>I speak fluent Python, broken SQL, and surprisingly good stakeholder.</p>
         </div>
         <h2><span>About Me</span></h2>
@@ -248,6 +248,7 @@ title: Home
   <article>
     <a href="{{ site.baseurl }}/projects">
       <div class="featured-post featured-post-proj">
+        <div class="proj-topbar"></div>
         <div class="proj-grid-section">
           <div class="proj-grid-header">
             <span class="proj-name">antra-dev</span>
@@ -649,16 +650,13 @@ title: Home
               <span class="proj-term-title">bash &#x2014; training</span>
             </div>
             <div class="proj-term-body">
-              <div class="proj-l1"><span style="color:#3fb950">antra</span><span style="color:#8b949e">@stanford </span><span style="color:#fff">python train.py --model bertopic</span></div>
-              <div class="proj-l2"><span>Loading 265 fellow responses... </span><span style="color:#3fb950">done</span></div>
-              <div class="proj-l3"><span>Fitting sentence embeddings </span><span style="color:#3fb950">&#x2713;</span></div>
-              <div class="proj-l4"><span>UMAP &nbsp;&nbsp;&nbsp;</span><span class="proj-bar-wrap"><span class="proj-bar-fill proj-bf1"></span></span><span style="color:#3fb950">100%</span></div>
-              <div class="proj-l5"><span>HDBSCAN</span><span class="proj-bar-wrap"><span class="proj-bar-fill proj-bf2"></span></span><span style="color:#40c463"> 88%</span></div>
-              <div class="proj-l6"><span style="color:#3fb950">&#x2713; </span><span style="color:#e6edf3">12 topics &#xb7; coherence </span><span style="color:#e3b341">0.68</span></div>
-              <div class="proj-l7"><span style="color:#3fb950">&#x2713; </span><span style="color:#7ee787">"career clarity &amp; post-grad uncertainty"</span></div>
-              <div class="proj-l8"><span style="color:#3fb950">&#x2713; </span><span style="color:#79c0ff">outputs/cq_findings.pdf</span><span> saved</span></div>
-              <div class="proj-l9"><span>Hybrid search accuracy: </span><span style="color:#e3b341">+40%</span><span> over baseline</span></div>
-              <div class="proj-l10"><span style="color:#3fb950">antra</span><span style="color:#8b949e">@stanford </span><span class="proj-cur"></span></div>
+              <div class="proj-l1"><span style="color:#3fb950">antra</span><span style="color:#8b949e">@stanford </span><span style="color:#fff">python train.py</span></div>
+              <div class="proj-l2"><span>Loading 265 responses... </span><span style="color:#3fb950">done</span></div>
+              <div class="proj-l3"><span>UMAP &nbsp;&nbsp;&nbsp;</span><span class="proj-bar-wrap"><span class="proj-bar-fill proj-bf1"></span></span><span style="color:#3fb950">100%</span></div>
+              <div class="proj-l4"><span>HDBSCAN</span><span class="proj-bar-wrap"><span class="proj-bar-fill proj-bf2"></span></span><span style="color:#40c463"> 88%</span></div>
+              <div class="proj-l5"><span style="color:#3fb950">&#x2713; </span><span style="color:#7ee787">12 topics extracted</span></div>
+              <div class="proj-l6"><span style="color:#3fb950">&#x2713; </span><span style="color:#e6edf3">coherence </span><span style="color:#e3b341">0.68</span></div>
+              <div class="proj-l7"><span style="color:#3fb950">antra</span><span style="color:#8b949e">@stanford </span><span class="proj-cur"></span></div>
             </div>
           </div>
           <div class="proj-term">
@@ -669,17 +667,14 @@ title: Home
               <span class="proj-term-title">bash &#x2014; git</span>
             </div>
             <div class="proj-term-body">
-              <div class="proj-r1"><span style="color:#3fb950">antra</span><span style="color:#8b949e">@stanford </span><span style="color:#fff">git log --oneline -6</span></div>
-              <div class="proj-r2"><span style="color:#e3b341">a3f9c12 </span><span>feat: hybrid search + reranker RAG</span></div>
-              <div class="proj-r3"><span style="color:#e3b341">b91e445 </span><span>fix: BERTopic min_topic_size 265 docs</span></div>
-              <div class="proj-r4"><span style="color:#e3b341">c72d881 </span><span>feat: AssemblyAI webhook &#x2192; Claude API</span></div>
-              <div class="proj-r5"><span style="color:#e3b341">d44a230 </span><span>refactor: Airtable cross-base match</span></div>
-              <div class="proj-r6"><span style="color:#e3b341">e19b774 </span><span>feat: GPT-2 fine-tune sonnet corpus</span></div>
-              <div class="proj-r7"><span style="color:#e3b341">f8c3009 </span><span>init: Flask backend + Vercel deploy</span></div>
-              <div class="proj-r8"><span style="color:#3fb950">antra</span><span style="color:#8b949e">@stanford </span><span style="color:#fff">git push origin main</span></div>
-              <div class="proj-r9"><span>Writing objects: </span><span style="color:#3fb950">100%</span><span> (5/5) &#xb7; 2.4 KiB</span></div>
-              <div class="proj-r10"><span style="color:#3fb950">&#x2713; </span><span>Branch </span><span style="color:#e3b341">main</span><span> &#x2192; origin/main</span></div>
-              <div class="proj-r11"><span style="color:#3fb950">antra</span><span style="color:#8b949e">@stanford </span><span class="proj-cur2"></span></div>
+              <div class="proj-r1"><span style="color:#3fb950">antra</span><span style="color:#8b949e">@stanford </span><span style="color:#fff">git log --oneline</span></div>
+              <div class="proj-r2"><span style="color:#e3b341">a3f9c12 </span><span>feat: CRM re-engagement</span></div>
+              <div class="proj-r3"><span style="color:#e3b341">b91e445 </span><span>feat: origami CycleGAN</span></div>
+              <div class="proj-r4"><span style="color:#e3b341">c72d881 </span><span>feat: WeatherMesh GTM</span></div>
+              <div class="proj-r5"><span style="color:#e3b341">d44a230 </span><span>feat: NLP clinical pipeline</span></div>
+              <div class="proj-r6"><span style="color:#e3b341">e19b774 </span><span>feat: GRE writing tool</span></div>
+              <div class="proj-r7"><span style="color:#3fb950">antra</span><span style="color:#8b949e">@stanford </span><span style="color:#fff">git push origin main</span></div>
+              <div class="proj-r8"><span style="color:#3fb950">antra</span><span style="color:#8b949e">@stanford </span><span class="proj-cur2"></span></div>
             </div>
           </div>
         </div>

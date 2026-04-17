@@ -24,6 +24,20 @@
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22), 0 4px 12px rgba(0, 0, 0, 0.12);
   transform: perspective(1000px) translateY(-4px);
 }
+.featured-post::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #7c6ff7, #5bc8af);
+  border-radius: 18px 18px 0 0;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.featured-post:hover::before {
+  opacity: 1;
+}
 .featured-post h2 {
   bottom: 0;
   margin: 0;
@@ -125,6 +139,20 @@
   overflow: visible;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2), 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+.featured-post-lottie::before {
+  display: none;
+}
+.featured-post-lottie {
+  background-image: none;
+  background-color: #f7f6f3;
+  transition: box-shadow 0.3s ease, transform 0.3s ease, background-image 0.3s ease;
+}
+.featured-post-lottie:hover {
+  background-image: linear-gradient(90deg, #7c6ff7, #5bc8af);
+  background-size: 100% 3px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
 .featured-post-exp {
   background: #f7f7f5;
   overflow: hidden;
@@ -133,11 +161,7 @@
   z-index: 10;
 }
 .exp-topbar {
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, #7c6ff7, #5bc8af);
-  z-index: 10;
+  display: none;
 }
 .exp-dotgrid {
   position: absolute;
@@ -173,6 +197,8 @@
   flex-direction: column;
   padding: 14px 16px 12px;
   gap: 10px;
+  height: 320px;
+  box-sizing: border-box;
 }
 .featured-post-proj::before {
   content: "";
@@ -181,6 +207,21 @@
   background-image: radial-gradient(circle, #ececec 1px, transparent 1px);
   background-size: 28px 28px;
   pointer-events: none;
+  z-index: 0;
+}
+.proj-topbar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #7c6ff7, #5bc8af);
+  border-radius: 18px 18px 0 0;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+.featured-post-proj:hover .proj-topbar {
+  opacity: 1;
 }
 .featured-post-proj h2 { z-index: 10; }
 .featured-post-proj h2 span { color: white; }
