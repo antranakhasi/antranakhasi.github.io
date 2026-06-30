@@ -10,6 +10,9 @@ plugins:             [jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 title:		           "Antra Nakhasi"
 description:	       "Portfolio of Antra Nakhasi"
 author:              "Antra Nakhasi"
+url:                 "https://antranakhasi.github.io"
+lang:                "en_US"
+logo:                "/assets/img/avatar.png"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:

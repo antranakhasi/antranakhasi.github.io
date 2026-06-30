@@ -2,6 +2,7 @@
 layout: page
 title: "Experience"
 permalink: /experience/
+description: "Work experience: PwC, Stanford HEAL Lab, and the Haas Center for Public Service."
 ---
 
 <style>
@@ -227,6 +228,59 @@ permalink: /experience/
     opacity: 0.22;
     pointer-events: none;
     user-select: none;
+  }
+
+  @media (max-width: 768px) {
+    .wave-wrap {
+      width: 100%;
+      margin-left: 0;
+      padding: 0 16px;
+    }
+    .wave-timeline {
+      position: static;
+      width: auto;
+      min-width: 0;
+      height: auto;
+      margin: 0;
+    }
+    .wave-svg {
+      display: none;
+    }
+    .wave-entry {
+      position: static;
+      width: 100%;
+      transform: none;
+      margin-bottom: 32px;
+    }
+    .wave-entry:last-child {
+      margin-bottom: 0;
+    }
+    .we-stem {
+      display: none;
+    }
+    .we-dot {
+      display: none;
+    }
+    .wave-above .tl-card {
+      order: 1;
+    }
+    .tl-date {
+      position: static;
+      left: auto;
+      transform: none;
+      margin: 0 0 14px;
+    }
+    .tl-card-img-icon {
+      width: 90px;
+      height: 90px;
+    }
+    .tl-heal-card,
+    .tl-haas-card {
+      width: 90px;
+      height: 90px;
+      right: -20px;
+      bottom: -20px;
+    }
   }
 </style>
 

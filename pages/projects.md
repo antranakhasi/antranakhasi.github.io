@@ -2,6 +2,7 @@
 layout: page
 title: "Projects"
 permalink: /projects/
+description: "Selected projects spanning deep learning, GTM strategy, and applied NLP."
 ---
 
 <style>
@@ -141,6 +142,17 @@ permalink: /projects/
     color: #6b6b6b;
     line-height: 1.6;
     margin-bottom: 4px;
+  }
+
+  @media (max-width: 768px) {
+    .projects-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    .proj-tile-img-icon-gre {
+      width: 130px;
+      height: 130px;
+    }
   }
 
 </style>

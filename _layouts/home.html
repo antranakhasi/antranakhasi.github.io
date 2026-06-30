@@ -711,6 +711,10 @@ title: Home
   }
 
   function onEnterFrame(e) {
+    if (window.innerWidth <= 768) {
+      introText.style.clipPath = 'none';
+      return;
+    }
     var f = e.currentTime;
     if (f >= 59) {
       introText.style.clipPath = 'none';
@@ -734,6 +738,7 @@ title: Home
   anim.addEventListener('complete', function() {
     introText.style.clipPath = 'none';
     anim.removeEventListener('enterFrame', onEnterFrame);
+    if (window.innerWidth <= 768) return;
     anim.loop = true;
     anim.playSegments([60, 120], true);
   });

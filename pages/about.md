@@ -2,6 +2,7 @@
 layout: page
 title: "About Me — Product, Data & AI"
 permalink: /about/
+description: "Antra Nakhasi — MS&E student at Stanford working across AI products, data, and strategy."
 ---
 <style>
   .page-content { max-width: 775px !important; }

@@ -2,6 +2,7 @@
 layout: page
 title: "Education"
 permalink: /education/
+description: "Education: Stanford University (MS&E) and Vellore Institute of Technology (B.Tech EEE)."
 ---
 
 <style>
@@ -192,6 +193,54 @@ permalink: /education/
     pointer-events: none;
     user-select: none;
   }
+
+  @media (max-width: 768px) {
+    .wave-wrap {
+      width: 100%;
+      margin-left: 0;
+      padding: 0 16px;
+    }
+    .wave-timeline {
+      position: static;
+      width: auto;
+      min-width: 0;
+      height: auto;
+      margin: 0;
+    }
+    .wave-svg {
+      display: none;
+    }
+    .wave-entry {
+      position: static;
+      width: 100%;
+      transform: none;
+      margin-bottom: 32px;
+    }
+    .wave-entry:last-child {
+      margin-bottom: 0;
+    }
+    .we-stem {
+      display: none;
+    }
+    .we-dot {
+      display: none;
+    }
+    .wave-above .tl-card {
+      order: 1;
+    }
+    .tl-date {
+      position: static;
+      left: auto;
+      transform: none;
+      margin: 0 0 14px;
+    }
+    .tl-card-img-icon {
+      width: 90px;
+      height: 90px;
+      right: -20px;
+      bottom: -15px;
+    }
+  }
 </style>
 
 <p class="exp-label">03 / Foundation</p>
@@ -231,7 +280,7 @@ permalink: /education/
         </ul>
         <img src="/assets/img/stanford-logo.avif" class="tl-card-img-icon" alt="">
       </div>
-      <span class="tl-date">Sept 2024 — Present</span>
+      <span class="tl-date">Sept 2024 — Jun 2026</span>
       <div class="we-stem"></div>
       <div class="we-dot"></div>
     </div>
