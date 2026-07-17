@@ -315,10 +315,10 @@ description: "Work experience: PwC, Stanford HEAL Lab, and the Haas Center for P
         </div>
         <span class="tl-role">Associate, One Consulting – Emerging Tech</span>
         <ul class="tl-desc">
-          <li>Deployed production RAG-based LLM product; launched MVP in 3 weeks, saving ~$180K annually.</li>
-          <li>Owned backend dev and prompt engineering; designed agentic workflows across multiple LLM APIs.</li>
-          <li>Drove user adoption via feedback sessions; shipped features improving output accuracy by ~40%.</li>
-          <li>Authored PRDs and conducted competitive analysis across 20+ industries to validate GenAI use cases.</li>
+          <li>Found a drop-off in usage data, formed a hypothesis about why, then shipped filtering and prompt guardrails and tested against it. Output accuracy up ~40%.</li>
+          <li>Deployed a production RAG LLM product from problem definition through launch. MVP in 3 weeks, ~$180K saved annually.</li>
+          <li>Owned backend and prompt engineering, including agentic workflows across multiple LLM APIs.</li>
+          <li>Authored PRDs and ran competitive analysis across 20+ industries to decide which GenAI use cases were worth building.</li>
         </ul>
         <img src="/assets/img/pwc.png" class="tl-card-img-icon" alt="">
       </div>
@@ -339,8 +339,8 @@ description: "Work experience: PwC, Stanford HEAL Lab, and the Haas Center for P
         </div>
         <span class="tl-role">Research Associate</span>
         <ul class="tl-desc">
-          <li>Built NLP pipelines analyzing 500+ unstructured clinical records; reduced manual review effort at scale.</li>
-          <li>Synthesized behavioral insights for interdisciplinary teams, informing improvements in care delivery workflows.</li>
+          <li>Built an NLP pipeline with Gemini and ClinicalBERT to structure unstructured clinical records, cutting manual review time ~80%.</li>
+          <li>Engineered 11 workload metrics from EHR audit-log data and ran regression that tied team workload to 20+ minutes of added treatment time. Co-authored the published study.</li>
         </ul>
         <img src="/assets/img/heal.png" class="tl-heal-card" alt="">
       </div>
@@ -355,9 +355,9 @@ description: "Work experience: PwC, Stanford HEAL Lab, and the Haas Center for P
         </div>
         <span class="tl-role">Data Analyst</span>
         <ul class="tl-desc">
-          <li>Built SQL/Python pipelines and Tableau dashboards across 15 programs serving 1,500+ students.</li>
-          <li>Applied crawl-walk-run model to drive adoption; secured stakeholder buy-in for program-wide migration.</li>
-          <li>Developed Airtable matching system with Airflow orchestration; reduced manual effort across 1,500+ records.</li>
+          <li>Ran cohort and funnel analysis across 15 programs and 1,500+ students to trace where users first engage and where they drop off by segment. </li>
+          <li>Built SQL and Python pipelines and Tableau dashboards, and standardized four years of inconsistent metric definitions so the numbers meant the same thing across teams.</li>
+          <li>Applied a crawl-walk-run rollout to drive adoption and secure stakeholder buy-in for a program-wide migration.</li>
         </ul>
         <img src="/assets/img/haas.png" class="tl-haas-card" alt="">
       </div>
